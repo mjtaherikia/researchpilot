@@ -10,6 +10,12 @@ description = "An autonomous research agent with MCP tools"
 requires-python = ">=3.11"
 dependencies = [
     "mcp>=1.9,<2",
+    "httpx>=0.27,<1",
+    "numpy>=1.26,<3",
+    "rank-bm25>=0.2,<1",
+    "python-dotenv>=1,<2",
+    "langgraph",
+    "langchain-mcp-adapters",
 ]
 
 [project.optional-dependencies]
