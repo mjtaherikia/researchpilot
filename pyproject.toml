@@ -1,0 +1,29 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchpilot"
+version = "0.1.0"
+description = "An autonomous research agent with MCP tools"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.9,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<10",
+]
+
+[project.scripts]
+researchpilot = "researchpilot.cli:main"
+researchpilot-mcp = "researchpilot.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,28 @@
+
+[
+    {
+      "id": "doc-001",
+      "title": "Retrieval-Augmented Generation",
+      "source": "ResearchPilot sample corpus",
+      "text": "Retrieval-augmented generation combines a language model with an external retrieval system. Retrieved documents can provide evidence for answering questions and can be updated without retraining the language model. The quality of the answer depends partly on retrieval quality and evidence relevance."
+    },
+    {
+      "id": "doc-002",
+      "title": "Fine-Tuning Language Models",
+      "source": "ResearchPilot sample corpus",
+      "text": "Fine-tuning updates a pretrained model using additional training examples. It can adapt model behavior to a domain or task. Fine-tuning does not by itself guarantee factual accuracy or ensure that every generated statement is supported by a source."
+    },
+    {
+      "id": "doc-003",
+      "title": "Evaluating Retrieval Systems",
+      "source": "ResearchPilot sample corpus",
+      "text": "Retrieval systems can be evaluated using metrics such as Recall at k and Mean Reciprocal Rank. Evaluation requires queries with known relevant documents. A system should also be tested on queries for which the corpus contains no adequate evidence."
+    },
+    {
+      "id": "doc-004",
+      "title": "Tool-Using Agents",
+      "source": "ResearchPilot sample corpus",
+      "text": "An agent can choose tools based on the current task and observations. Reliable tool-using systems validate arguments, limit execution, record tool results, handle failures, and stop when a termination condition is reached."
+    }
+  ]
+  
